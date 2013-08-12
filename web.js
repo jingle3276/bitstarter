@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var js = require('fs');
+var fs = require('fs');
 
 app.use(express.logger());
 
